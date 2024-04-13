@@ -1,0 +1,83 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.profile-card {
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.profile-img img {
+  width: 100px;
+  height: 110px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  margin-bottom: 0px;
+}
+
+.name {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.occupation {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+.contact {
+  margin-top: 20px;
+}
+.contact p {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 5px;
+}
+.contact p a {
+  text-decoration: none;
+  color: #04537d;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.follow-btn,
+.hire-btn {
+  width: 100px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #04537d;
+
+  color: #fff;
+  cursor: pointer;
+}
+
+.follow-btn:hover,
+.hire-btn:hover {
+  background-color: #007bff;
+}
